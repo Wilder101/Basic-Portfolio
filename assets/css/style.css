@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    /* text-align: center; */
+  }
+
+  /* .top {
+    clear: both;     /* clears both left and right floats 
+    overflow: auto;  /* keeps containers inside of their containers (?) 
+    width: 80%;
+    background-color: #eee;
+  } */
+
+/* .h-top {
+    width: 960px;
+    float: center;
+}
+
+.h-name {
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+    position: relative;
+    left: 250px;
+    width: 300px;
+    font-size: 30px;
+}
+
+.h-pages {
+
+    position: relative;
+    float: right;
+} */
+
+    /* clear: both; */
+    /* overflow: auto; */
+
+.heading {
+    width: 960px;
+    margin: auto;
+}
+
+/* .nav-bar {
+    color: gray;
+} */
+
+.nav-name {
+    position: relative;
+    float: left;
+    padding: 20px;
+    color: white;
+    background-color: darkgreen;
+}
+
+.nav-links {
+    /* clear: both; */
+    /* position: absolute; */
+    float: right;
+    font-size: 17px;
+    padding-top: 52px;
+}
