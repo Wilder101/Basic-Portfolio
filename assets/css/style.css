@@ -58,3 +58,20 @@
     font-size: 17px;
     padding-top: 52px;
 }
+
+.atmosphere {
+    clear: both;
+    width: 100%;
+    background-image: url("../images/fabric_1.png");
+    /* margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border: 0 0 0 0; */
+    /* background-image: linear-gradient(red, white); */
+}
+
+.main-content{
+    clear: both;
+    position: relative;
+    width: 960px;
+    margin: auto;
+}
