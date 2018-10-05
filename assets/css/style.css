@@ -74,4 +74,49 @@
     position: relative;
     width: 960px;
     margin: auto;
+    background-color: white;
+    padding: 30px;
+    margin-top: -20px;
+}
+
+.content-inner {
+    clear: both;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    /* padding:  */
+}
+
+.img-profile {
+    clear: both;
+    position: relative;
+    padding: 2 20 20 0;
+}
+
+/* section {
+    padding: 20px;
+    margin-bottom: 20px;
+} */
+
+.footing {
+    width: 100%;
+    margin: auto;
+}
+
+.small-bar {
+    position: relative;
+    height: 5px;
+    background-color: brown;
+}
+
+.big-bar {
+    position: relative;
+    height: 50px;
+    background-color: gray;
+}
+
+.copyright {
+    margin: auto;
+    text-align: center;
+    padding: 14px;
 }
