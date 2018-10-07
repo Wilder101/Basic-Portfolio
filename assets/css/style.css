@@ -88,8 +88,6 @@ a:link {
     /* min-height: 100%; */
     width: 100%;
     background-image: url("../images/fabric_1.png");
-    /* background-size: cover; */
-    
 }
 
 h2 {
@@ -99,10 +97,6 @@ h2 {
     padding-bottom: 30px;
     border-bottom: 3px solid  #dddddd;
 }
-
-/* hr {
-    color: #dddddd;
-} */
 
 .main-content{
     clear: both;
@@ -147,7 +141,8 @@ p {
     position: relative;
     /* width: 100%; */
     margin: auto;
-    top: 10px;
+    /* top: 10px; */
+    bottom: 100px;
     border-top: 8px solid #4aaaa5;
     /* margin-top: -60px; */
     /* padding: 30px; */
