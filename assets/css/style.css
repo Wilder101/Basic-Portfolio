@@ -109,3 +109,26 @@ p {
     color: #dddddd;
     font-size: 12px;
 }
+
+
+/* Contact CSS */
+input[type=email], input[type=text], textarea {
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    margin: 6px 0px 16px 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+button[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 16px;
+    padding: 12px 34px;
+    border: none;
+}
+
+textarea {
+    min-height: 200px;
+    resize: vertical;
+}

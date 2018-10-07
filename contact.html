@@ -2,50 +2,63 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
         <meta charset="UTF-8">
-        <title>Basic Portfolio</title>
+        <title>Contact | Basic Portfolio</title>
     </head>
 
     <body>
-        <header>
-            <h1>Wilder Molyneux</h1>
 
-            <h2>About</h2>
-            <h2>Portfolio</h2>
-            <h2>Contact</h2>
+        <div class="heading">
+                <h1 class="nav-name">Wilder Molyneux</h1>
 
-        </header>
+                <div class="nav-links">
+                    <a href="index.html">About</a> |
+                    <a href="portfolio.html">Portfolio</a> |
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>       
 
-        <hr>
+        <div class="atmosphere">
+            <section class="main-content">
+                <h2>Contact</h2>
 
-        <section>
-            <h3>Contact</h3>
+                <div class="content-inner">
 
-            <hr>
+                    <!-- <div class="img-profile">
+                         <img src="assets/images/wildermolyneuxprofile.jpg" alt="Wilder Molyneux" align="left">
+                    </div>
 
-            <p>Name</p>
-            <p>Enter your name</p>
+                    <p>Wilder Molyneux is a tried and true Seattleite, born on Seattle’s Capitol Hill, educated near and far, and loves the Pacific Northwest. He has a passion for full stack web development. He started programming computers at the age of eight and has never stopped his love for technology, computing, and rapid change.</p><br>
 
-            <p>Email</p>
-            <p>Enter your email address</p>
+                    <p>In his day job, he works at a Fortune 50 multinational corporation as an Enterprise Architect. He holds a certificate in Enterprise Architecture from Carnegie Mellon University and is a certified practitioner of The Open Group’s Architecture Framework (TOGAF), which he uses daily.</p><br>
+                
+                    <p>When not keeping up with technology or working, you can find Wilder outdoors either flying through the air on bicycles, taking two-wheeled backcountry trips with his friends, or camping with his family.</p>                                -->
+                    <form>
+                        <label for="contact-name">Name</label>
+                        <input type="text" id="contact-name" name="contact-name" placeholder="John Smith" required>
+                
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" name="contact-email" placeholder="example@gmail.com" required>
+                
+                        <label for="contact-msg">Message</label>
+                        <textarea id="contact-msg" name="contact-msg" required></textarea>
+                
+                        <button type="submit">Submit</button>
+                        </form>
+                </div>
+            </section>
+            <br><br><br><br><br><br><br><br>
+        </div>
 
-            <p>Message</p>
-            <p>Enter your message</p>
-
-            <button>Submit</button>
-            <br><br>
-
-        </section>
-
-        <footer>
-            <div>
-                <!-- small bar for color -->
+        <footer class="footing">
+            <div class="big-bar">
+                <p class="copyright">Wilder Molyneux &copy; 2018<p>
             </div>
-            <div>
-                Copyright &copy; 2018
-            </div>
-
         </footer>
-
+      
     </body>
 </html>
